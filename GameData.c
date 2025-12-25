@@ -11,6 +11,8 @@ function self.world()
         World2 = true
     elseif place == 7449423635 or place == 100117331123089 then
         World3 = true
+    else
+        game.Players.LocalPlayer:Kick("❌ Error : A[26]Blox Fruits ❌")
     end
     return World1, World2, World3
 end

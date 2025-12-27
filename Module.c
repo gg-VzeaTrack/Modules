@@ -5,7 +5,7 @@ local Cached = { Bring = {} }
 local _ENV = (getgenv or getrenv or getfenv)()
 local BRING_TAG: string = _ENV._Bring_Tag or `b{math.random(80, 2e4)}t`
 _ENV._Bring_Tag = BRING_TAG
-local Settings = { BringDistance = 300 }
+local Settings = { BringDistance = 275 }
 
 local hookmetamethod = hookmetamethod or (function(...) return ... end)
 local hookfunction = hookfunction or (function(...) return ... end)

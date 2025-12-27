@@ -1,3 +1,6 @@
+local self = loadstring(game:HttpGet("https://raw.githubusercontent.com/gg-VzeaTrack/Modules/refs/heads/main/GameData.c"))()
+World1,World2,World3 = self.world()
+
 local Queue = {}
 local replicated = game:GetService("ReplicatedStorage")
   
